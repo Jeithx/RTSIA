@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:ia="IronArteries.UI.Runtime.ViewModels">
+    <ui:Style src="project://database/Assets/UI/Runtime/USS/MarketUI.uss" />
+    <ui:VisualElement name="MarketContainer" class="container">
+        <ui:Label text="War Fund Allocation:" class="label" />
+        <ia:MarketViewModel name="MarketVM" allocation-percent="50">
+            <ui:Slider name="AllocationSlider" label="Ratio%" low-value="0" high-value="100" />
+        </ia:MarketViewModel>
+    </ui:VisualElement>
+</ui:UXML>

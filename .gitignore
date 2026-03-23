@@ -1,0 +1,102 @@
+# Iron Arteries — Unity DOTS Project .gitignore
+
+# ========================
+# Unity Generated
+# ========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emory[Cc]aptures/
+[Uu]ser[Ss]ettings/
+
+# ========================
+# Unity Asset Database
+# ========================
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ========================
+# Unity Cache / Incremental Build
+# ========================
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# ========================
+# DOTS / Burst / IL2CPP
+# ========================
+BurstDebugInformation_DoNotShip/
+il2cpp_cache/
+*.ilk
+*.exp
+*.jam
+
+# ========================
+# OS Generated
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDEs
+# ========================
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+*.rsp
+
+# ========================
+# Build Artifacts
+# ========================
+ExportedObj/
+.consulo/
+*.pidb
+crashlytics-build.properties
+
+# ========================
+# Version Control Helpers
+# ========================
+*.orig
+
+# ========================
+# Test Output
+# ========================
+TestResults/
+
+# ========================
+# Package Manager Cache
+# ========================
+/[Pp]ackages/
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+
+# ========================
+# Project Specific
+# ========================
+# Antigravity AI brain folder — local only
+.gemini/
